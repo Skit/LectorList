@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">LectorList</string>
+    <string name="prompt">Все</string>
+    <string name="by_week">По неделям</string>
+    <string name="week_number">Неделя %1$d</string>
 </resources>

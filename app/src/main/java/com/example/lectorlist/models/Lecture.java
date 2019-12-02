@@ -7,8 +7,10 @@ public class Lecture {
     private String date;
     private String theme;
     private String lector;
+    private int number;
 
-    public Lecture(@NonNull String d, @NonNull String t, @NonNull String l) {
+    public Lecture(int n, @NonNull String d, @NonNull String t, @NonNull String l) {
+        number = n;
         date = d;
         theme = t;
         lector = l;
@@ -16,6 +18,19 @@ public class Lecture {
 
     public String getLector() {
         return lector;
+    }
+
+    public String getTheme() {
+        return theme;
+    }
+
+    @NonNull
+    public String getDate() {
+        return date;
+    }
+
+    public int getNumber() {
+        return number;
     }
 
 }

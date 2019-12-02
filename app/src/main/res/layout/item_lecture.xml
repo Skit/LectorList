@@ -11,7 +11,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_margin="20dp"
+        android:layout_margin="@dimen/defaultDp"
         tools:text="Лектор" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/defaultDp"
+        tools:text="01.01.2020" />
+
+    <TextView
+        android:id="@+id/theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lector"
+        android:textSize="@dimen/defaultSp"
+        android:layout_marginTop="@dimen/emptyDp"
+        android:layout_marginEnd="@dimen/emptyDp"
+        android:layout_marginBottom="@dimen/emptyDp"
+        android:layout_marginStart="@dimen/defaultDp"
+        tools:text="Тема лекции" />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/defaultDp"
+        tools:text="5" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/minDp"
+        android:layout_marginTop="@dimen/minDp"
+        android:background="#CCC"/>
 
 </RelativeLayout>
